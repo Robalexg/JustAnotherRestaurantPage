@@ -8,6 +8,10 @@ import{location} from './location.js'
 
 
 let content = document.querySelector(".content")
-content.appendChild(homePage())
+content.appendChild(menu())
+// content.appendChild(homePage())
+// content.appendChild(res())
+// content.appendChild(about())
+// content.appendChild(location())
 
 
