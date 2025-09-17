@@ -74,3 +74,8 @@
     grid-row: 1/4;
     margin: 100px 0;
 }
+
+.header button {
+    cursor: pointer;
+}
+

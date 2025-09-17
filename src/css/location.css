@@ -1,0 +1,44 @@
+.locationContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.locationHeader{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 90px;
+}
+
+.locationHeader h1{
+    font-size: 50px;
+}
+
+.locationHeader p{
+    font-size: 20px;
+}
+
+
+
+.locationImg{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 90px;
+    height: 70vh;
+
+}
+
+
+.locationImg div{
+    background: blue;
+    border-radius:60px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+

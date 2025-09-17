@@ -31,3 +31,8 @@ body{
     width: 200px;
     height: auto;
 }
+
+
+.nav ul li:hover, nav img:hover {
+    cursor: pointer;
+}

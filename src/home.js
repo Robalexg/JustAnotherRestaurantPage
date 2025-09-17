@@ -6,7 +6,9 @@ import hero2 from './images/hero2.png'
 import hero3 from './images/hero3.png'
 import hero4 from './images/hero4.png'
 import hero5 from './images/hero5.png'
+import{res} from './res.js'
 
+let content = document.querySelector(".content")
 
 
 
@@ -21,9 +23,14 @@ const getHeader = () => {
     let resBtn = document.createElement('button')
     let resImg = document.createElement('img')
 
+    resBtn.addEventListener("click",() => {
+        content.replaceChildren(res())
+    })
+
 
     header.classList.add("header")
     resContainer.classList.add("resContainer")
+
 
     h2.textContent = 'Welcome to'
     h1.textContent = 'Purrla'

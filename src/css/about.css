@@ -1,0 +1,56 @@
+.aboutContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.aboutHeader{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 90px;
+}
+
+.aboutHeader h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.aboutHeader p {
+    font-size: 20px;
+}
+
+.aboutHeader button {
+    border: none;
+    padding: 10px 20px;
+    align-self: flex-end;
+    border-radius: 20px;
+    background: #F2CC0C;
+    font-size: 25px;
+    
+}
+
+.aboutHeader button:hover{
+    cursor: pointer;
+}
+
+
+
+.aboutImg{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 90px;
+}
+
+
+.aboutImg div{
+    background: blue;
+    border-radius:60px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
